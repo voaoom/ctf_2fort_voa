@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "4"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,99 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_tf2_04"
-	solid
-	{
-		"id" "3"
-		side
-		{
-			"id" "1"
-			"plane" "(-8 -8 24) (-8 8 24) (8 8 24)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0.707107 0.707107 0 0] 0.1"
-			"vaxis" "[0.707107 -0.707107 0 0] 0.1"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2"
-			"plane" "(-8 8 -8) (-8 -8 -8) (8 -8 -8)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0.707107 0.707107 0 0] 0.1"
-			"vaxis" "[0.707107 -0.707107 0 0] 0.1"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3"
-			"plane" "(8 8 -8) (8 -8 -8) (8 -8 24)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 0.707107 0.707107 0] 0.1"
-			"vaxis" "[0 0.707107 -0.707107 0] 0.1"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4"
-			"plane" "(-8 -8 -8) (-8 8 -8) (-8 8 24)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 0.707107 0.707107 0] 0.1"
-			"vaxis" "[0 0.707107 -0.707107 0] 0.1"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5"
-			"plane" "(8 -8 -8) (-8 -8 -8) (-8 -8 24)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0.707107 0 0.707107 0] 0.1"
-			"vaxis" "[0.707107 0 -0.707107 0] 0.1"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6"
-			"plane" "(-8 8 -8) (8 8 -8) (8 8 24)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0.707107 0 0.707107 0] 0.1"
-			"vaxis" "[0.707107 0 -0.707107 0] 0.1"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "150 171 0"
-			"groupid" "2"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "2"
-		editor
-		{
-			"color" "150 171 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 }
 entity
 {
@@ -134,8 +47,7 @@ entity
 	"origin" "0 0 15"
 	editor
 	{
-		"color" "150 171 0"
-		"groupid" "2"
+		"color" "0 126 223"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -157,8 +69,7 @@ entity
 	"origin" "0 0 14"
 	editor
 	{
-		"color" "150 171 0"
-		"groupid" "2"
+		"color" "0 232 153"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-6850.83 9591.75]"
@@ -186,8 +97,7 @@ entity
 	"origin" "0 0 12"
 	editor
 	{
-		"color" "150 171 0"
-		"groupid" "2"
+		"color" "0 210 187"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-11744.1 -10666.1]"
