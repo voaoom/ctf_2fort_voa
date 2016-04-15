@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "6"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -47,7 +47,7 @@ entity
 	"origin" "0 0 15"
 	editor
 	{
-		"color" "0 126 223"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -69,7 +69,7 @@ entity
 	"origin" "0 0 14"
 	editor
 	{
-		"color" "0 232 153"
+		"color" "255 128 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-6850.83 9591.75]"
@@ -83,21 +83,21 @@ entity
 	"_constant_attn" "0"
 	"_distance" "0"
 	"_exponent" "1"
-	"_fifty_percent_distance" "100"
-	"_inner_cone" "30"
+	"_fifty_percent_distance" "128"
+	"_inner_cone" "45"
 	"_light" "239 239 255 300"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "800"
+	"_zero_percent_distance" "1024"
 	"angles" "-90 0 0"
 	"pitch" "-90"
 	"style" "0"
 	"origin" "0 0 12"
 	editor
 	{
-		"color" "0 210 187"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-11744.1 -10666.1]"
