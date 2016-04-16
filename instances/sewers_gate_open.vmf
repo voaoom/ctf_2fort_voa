@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_tf2_04"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail_2fort.vbsp"
 	"detailmaterial" "detail/detailsprites_2fort"
+	"detailvbsp" "detail_2fort.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_tf2_04"
 }
 entity
 {
@@ -49,7 +49,7 @@ entity
 	"origin" "0 0 1.52588e-005"
 	editor
 	{
-		"color" "0 140 217"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6000 -8768]"
@@ -77,7 +77,7 @@ entity
 	"origin" "0 0 1.52588e-005"
 	editor
 	{
-		"color" "0 182 115"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6000 -8768]"
@@ -98,7 +98,7 @@ entity
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109,7 +109,7 @@ entity
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -120,7 +120,7 @@ entity
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "90"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -131,7 +131,7 @@ entity
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -142,7 +142,7 @@ entity
 			"uaxis" "[0 1 0 192] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -153,12 +153,12 @@ entity
 			"uaxis" "[0 1 0 192] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		editor
 		{
-			"color" "0 184 185"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -174,7 +174,7 @@ entity
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -185,7 +185,7 @@ entity
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -196,7 +196,7 @@ entity
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "90"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -207,7 +207,7 @@ entity
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "90"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -218,7 +218,7 @@ entity
 			"uaxis" "[0 1 0 192] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -229,19 +229,19 @@ entity
 			"uaxis" "[0 1 0 192] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		editor
 		{
-			"color" "0 184 185"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 184 185"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7500 1000]"
