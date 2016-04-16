@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "2"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "sky_tf2_04"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail_2fort.vbsp"
 	"detailmaterial" "detail/detailsprites_2fort"
+	"detailvbsp" "detail_2fort.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_tf2_04"
 }
 entity
 {
@@ -43,7 +43,7 @@ entity
 	"origin" "0 0 32"
 	editor
 	{
-		"color" "252 213 0"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
@@ -65,7 +65,7 @@ entity
 	"origin" "0 0 16"
 	editor
 	{
-		"color" "252 213 0"
+		"color" "255 128 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-5850.83 9091.75]"
@@ -75,11 +75,11 @@ entity
 {
 	"id" "8"
 	"classname" "light_spot"
-	"_cone" "75"
+	"_cone" "90"
 	"_constant_attn" "0"
 	"_distance" "0"
 	"_exponent" "1"
-	"_inner_cone" "45"
+	"_inner_cone" "60"
 	"_light" "255 239 239 700"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
@@ -91,7 +91,7 @@ entity
 	"origin" "0 0 8"
 	editor
 	{
-		"color" "252 213 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-11744.1 -4666.07]"

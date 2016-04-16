@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -78,7 +78,7 @@ entity
 	"_constant_attn" "0"
 	"_distance" "0"
 	"_exponent" "1"
-	"_inner_cone" "30"
+	"_inner_cone" "45"
 	"_light" "255 239 239 700"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
